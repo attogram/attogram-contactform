@@ -7,7 +7,7 @@
 [![License](https://poser.pugx.org/attogram/attogram-contactform/license)](https://github.com/attogram/attogram-contactform/blob/master/LICENSE.md)
 [![Code Climate](https://codeclimate.com/github/attogram/attogram-contactform/badges/gpa.svg)](https://codeclimate.com/github/attogram/attogram-contactform)
 [![Issue Count](https://codeclimate.com/github/attogram/attogram-contactform/badges/issue_count.svg)](https://codeclimate.com/github/attogram/attogram-contactform)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/821b551ca77042799cbd6cdb013a5668)](https://www.codacy.com/app/attogram-project/attogram-contactform?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/attogram-contactform&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ccc7d8a823254176bed3976cfa3bb2a6)](https://www.codacy.com/app/attogram-project/attogram-contactform?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=attogram/attogram-contactform&amp;utm_campaign=Badge_Grade)
 [`[CHANGELOG]`](https://github.com/attogram/attogram-contactform/blob/master/CHANGELOG.md)
 [`[TODO]`](https://github.com/attogram/attogram-contactform/blob/master/TODO.md)
 
