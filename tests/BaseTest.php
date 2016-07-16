@@ -10,5 +10,4 @@ class BaseTest extends PHPUnit\Framework\TestCase
     {
         $this->assertTrue(true, 'true not true!');
     }
-
 }

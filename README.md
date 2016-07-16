@@ -13,24 +13,32 @@
 
 This is the Contact Form Module for the [Attogram Framework](https://github.com/attogram/attogram).
 
-# Installing the Contact Form Module
-* You already installed the [Attogram Framework](https://github.com/attogram/attogram), didn't you?
-* You already installed the [Attogram Framework Database Module](https://github.com/attogram/attogram-database), didn't you?
+## Installing the Contact Form Module
+
+* You already installed the
+  [Attogram Framework](https://github.com/attogram/attogram), didn't you?
+* You already installed the
+  [Attogram Framework Database Module](https://github.com/attogram/attogram-database), didn't you?
 * Goto the top level of your install, then run:
+
 ```
 composer create-project attogram/attogram-contactform modules/contactform
 ```
 
-# Contact Form Module contents
+## Contact Form Module contents
 
-* Public Actions:
- * `actions/contact.php` - The contact form
+### Public Actions
 
-* Admin Actions:
- * `admin_actions/contact-admin.php` - View/delete messages
+* `actions/contact.php` - The contact form
 
-* Database Tables:
- * `tables/contact.sql` - Contact  table
+### Admin Actions
 
-* Misc:
- * `tests/BaseTest.php` - phpunit tests
+* `admin_actions/contact-admin.php` - View/delete messages
+
+### Database Tables
+
+* `tables/contact.sql` - Contact  table
+
+### Misc
+
+* `tests/BaseTest.php` - phpunit tests
