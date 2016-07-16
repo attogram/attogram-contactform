@@ -29,8 +29,8 @@ composer create-project attogram/attogram-contactform modules/contactform
 * Admin Actions:
  * `admin_actions/contact-admin.php` - View/delete messages
 
-* Database Tables
- * `tables/contact.sql`  Contact  table
+* Database Tables:
+ * `tables/contact.sql` - Contact  table
 
 * Misc:
  * `tests/BaseTest.php` - phpunit tests
