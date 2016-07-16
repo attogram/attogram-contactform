@@ -1,6 +1,6 @@
 # CHANGELOG: Attogram Contact Form Module
 
-- Repository: https://github.com/attogram/attogram-contactform
+- Repository: <https://github.com/attogram/attogram-contactform>
 - Click version number to view a diff comparison of changes since the previous release
 
 ## [Unreleased](https://github.com/attogram/attogram-contactform/compare/v0.0.1...HEAD)

@@ -1,5 +1,5 @@
 <?php
-// Attogram Framework - Message Admin v0.2.1
+// Attogram Framework - Message Admin v0.2.2
 
 namespace Attogram;
 
@@ -11,7 +11,7 @@ $this->pageHeader('Contact Form Admin');
 $sql = 'SELECT * FROM contact ORDER BY id DESC';
 $messages = $this->database->query($sql);
 
-echo '<strong>'.count($m).'</strong> <a href="">Messages</a><hr />';
+echo '<strong>'.count($messages).'</strong> <a href="">Messages</a><hr />';
 
 foreach ($messages as $message) {
     echo 'ID: '.$message['id']
