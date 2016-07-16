@@ -37,7 +37,7 @@ composer create-project attogram/attogram-contactform modules/contactform
 
 ### Database Tables
 
-* `tables/contact.sql` - Contact  table
+* `tables/contact.sql` - Contact table
 
 ### Misc
 
