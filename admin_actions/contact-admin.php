@@ -1,5 +1,5 @@
 <?php
-// Attogram Framework - Message Admin v0.2.3
+// Attogram Framework - Message Admin v0.2.4
 
 namespace Attogram;
 
@@ -21,9 +21,9 @@ foreach ($messages as $message) {
     .$message['id'].']&type=delete">delete</a>'
     .'<br />IP: '.$message['ip']
     .'<br />Time: '.$message['time']
-    .'<br />Agent: '.htmlentities($message['agent'])
-    .'<br />Email: '.htmlentities($message['email'])
-    .'<br />Message:<br />'.htmlentities($message['msg'])
+    .'<br />Agent: '.$this->webDisplay($message['agent'])
+    .'<br />Email: '.$this->webDisplay($message['email'])
+    .'<br />Message:<br />'.$this->webDisplay($message['msg'])
     .'<hr />';
 }
 
