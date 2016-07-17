@@ -1,14 +1,14 @@
 <?php
-// Attogram Framework - Message Admin v0.2.2
+// Attogram Framework - Message Admin v0.2.3
 
 namespace Attogram;
 
 $this->pageHeader('Contact Form Admin');
-?>
-<div class="container">
-<?php
+
+echo '<div class="container">';
 
 $sql = 'SELECT * FROM contact ORDER BY id DESC';
+
 $messages = $this->database->query($sql);
 
 echo '<strong>'.count($messages).'</strong> <a href="">Messages</a><hr />';
@@ -26,7 +26,7 @@ foreach ($messages as $message) {
     .'<br />Message:<br />'.htmlentities($message['msg'])
     .'<hr />';
 }
-?>
-</div>
-<?php
+
+echo '</div>';
+
 $this->pageFooter();

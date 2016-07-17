@@ -1,33 +1,28 @@
 <?php
-// Attogram Framework - Contact Page v0.2.1
+// Attogram Framework - Contact Page v0.2.2
 
 namespace Attogram;
 
 $this->pageHeader('Contact');
 
 if (isset($_POST['msg']) && isset($_POST['email'])) {
-
     $sql = 'INSERT INTO contact (time,email,msg,ip,agent) '
         .'VALUES (DATETIME("now"),:email,:msg,:ip,:agent)';
-
     $bind = array(
         'email' => $_POST['email'],
         'msg' => $_POST['msg'],
         'ip' => @$_SERVER['REMOTE_ADDR'],
         'agent' => @$_SERVER['HTTP_USER_AGENT'],
     );
-
     if ($this->database->queryb($sql, $bind)) {
         echo '<div class="container">Thank You.  Message received.</div>';
         $this->pageFooter();
         return;
     }
-
     echo '<p>ERROR</p>';
-
 }
 
-?>
+print '
 <div class="container">
   <h3>Contact us</h3>
   <form action="." method="POST">
@@ -41,6 +36,6 @@ if (isset($_POST['msg']) && isset($_POST['email'])) {
     </div>
     <button type="submit" class="btn btn-primary"> Send your message now </button>
   </form>
-</div>
-<?php
+</div>';
+
 $this->pageFooter();

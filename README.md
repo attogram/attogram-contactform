@@ -11,7 +11,8 @@
 [`[CHANGELOG]`](https://github.com/attogram/attogram-contactform/blob/master/CHANGELOG.md)
 [`[TODO]`](https://github.com/attogram/attogram-contactform/blob/master/TODO.md)
 
-This is the Contact Form Module for the [Attogram Framework](https://github.com/attogram/attogram).
+This is the [Contact Form Module](https://github.com/attogram/attogram-contactform)
+for the [Attogram Framework](https://github.com/attogram/attogram).
 
 ## Installing the Contact Form Module
 
@@ -41,4 +42,4 @@ composer create-project attogram/attogram-contactform modules/contactform
 
 ### Misc
 
-* `tests/BaseTest.php` - phpunit tests
+* `tests/*` - phpunit tests
