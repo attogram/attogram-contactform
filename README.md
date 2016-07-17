@@ -1,4 +1,4 @@
-# Attogram Framework Contact Form Module v0.0.1
+# Attogram Framework Contact Form Module v0.0.2
 
 [![Build Status](https://travis-ci.org/attogram/attogram-contactform.svg?branch=master)](https://travis-ci.org/attogram/attogram-contactform)
 [![Latest Stable Version](https://poser.pugx.org/attogram/attogram-contactform/v/stable)](https://packagist.org/packages/attogram/attogram-contactform)
