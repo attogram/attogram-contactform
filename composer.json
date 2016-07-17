@@ -19,8 +19,9 @@
   ],
   "suggest": {
     "attogram/attogram-framework": "The Attogram Framework",
-    "attogram/attogram-database": "requires the Database Module for the Attogram Framework",
-    "attogram/attogram-user": "User Module for the Attogram Framework"
+    "attogram/attogram-database": "Contact Form Module requires the Database Module for the Attogram Framework",
+    "attogram/attogram-user": "User Module for the Attogram Framework",
+    "attogram/attogram-info": "Info Module for the Attogram Framework"
   },
   "keywords": [
     "contact form",
