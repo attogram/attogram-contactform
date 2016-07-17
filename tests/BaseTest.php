@@ -1,7 +1,5 @@
 <?php
-// Attogram Framework - Contact Form Module - Base Test v0.0.3
-
-namespace Attogram;
+// Attogram Framework - Contact Form Module - Base Test v0.0.4
 
 use PHPUnit\Framework\TestCase;
 
